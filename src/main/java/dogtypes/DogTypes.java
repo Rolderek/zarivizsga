@@ -38,10 +38,8 @@ public class DogTypes {
     public List<String> getDogsByCountry(String str) {
         try (Connection conn = dataSource.getConnection();
              PreparedStatement ps = conn.prepareStatement("select name from dog_types where country = ?;")) {
-
             ps.setString(1, str.toUpperCase());
             return getDogs(ps);
-
         } catch (SQLException se) {
             throw new IllegalStateException("Can not read database.", se);
         }
