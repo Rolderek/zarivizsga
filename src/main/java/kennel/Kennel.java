@@ -17,9 +17,9 @@ public class Kennel {
 
     public List<Dog> feedAll() {
         List<Dog> d = new ArrayList<>();
-        for (Dog dogs: dogs) {
-            dogs.feed();
-            d.add(dogs);
+        for (Dog dogie: dogs) {
+            dogie.feed();
+            d.add(dogie);
         }
         dogs = d;
         return dogs;
