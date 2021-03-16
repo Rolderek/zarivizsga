@@ -15,16 +15,15 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class DogTypesTest {
 
-    /*
     DogTypes dogTypes;
 
     @BeforeEach
     void init() throws SQLException {
         MariaDbDataSource dataSource;
         dataSource = new MariaDbDataSource();
-        dataSource.setUrl("jdbc:mariadb://localhost:3306/employees?useUnicode=true");
-        dataSource.setUser("employees");
-        dataSource.setPassword("employees");
+        dataSource.setUrl("jdbc:mariadb://localhost:3306/dogs?useUnicode=true");
+        dataSource.setUser("mrdog");
+        dataSource.setPassword("mrdog");
 
         Flyway flyway = Flyway.configure().dataSource(dataSource).load();
 
@@ -42,7 +41,4 @@ public class DogTypesTest {
         assertTrue(types.contains("komondor"));
         assertTrue(types.contains("kuvasz"));
     }
-
-
-     */
 }

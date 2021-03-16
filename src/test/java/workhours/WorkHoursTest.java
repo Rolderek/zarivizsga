@@ -6,7 +6,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class WorkHoursTest {
 
-    /*
     @Test
     void minWork() {
         WorkHours workHours = new WorkHours();
@@ -14,5 +13,4 @@ class WorkHoursTest {
         assertEquals("John Doe: 2021-01-04", result);
     }
 
-     */
 }
