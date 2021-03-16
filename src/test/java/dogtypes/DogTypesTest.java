@@ -15,6 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class DogTypesTest {
 
+    /*
     DogTypes dogTypes;
 
     @BeforeEach
@@ -42,4 +43,6 @@ public class DogTypesTest {
         assertTrue(types.contains("kuvasz"));
     }
 
+
+     */
 }
